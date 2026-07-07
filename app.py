@@ -2,7 +2,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="IndabaX 2026 | CHPC & VuthaStack",
+    page_title="AI Guidelines for Infrastructure as a Service Platforms",
     page_icon="☁️",
     layout="centered"
 )
@@ -14,20 +14,9 @@ st.markdown(
     """
 Thank you for attending the talk.
 
-This page brings together the key links mentioned during the session:
-local compute access, the talk slides, and the VuthaStack expression of interest form.
+This page brings together the key links mentioned during the session.
 """
 )
-
-st.divider()
-
-st.header("CHPC Access")
-st.markdown(
-    """
-To know more about CHPC and gain access to local compute and cloud resources:
-"""
-)
-st.link_button("Visit CHPC", "https://chpc.ac.za")
 
 st.divider()
 
@@ -60,5 +49,13 @@ st.link_button(
 )
 
 st.divider()
+
+st.header("CHPC Access")
+st.markdown(
+    """
+To know more about CHPC and gain access to local compute and cloud resources:
+"""
+)
+st.link_button("Visit CHPC", "https://chpc.ac.za")
 
 st.caption("CHPC | Local compute, cloud access, and responsible AI infrastructure")
