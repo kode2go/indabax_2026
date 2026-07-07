@@ -26,9 +26,10 @@ st.markdown(
 Download or view the slides from the IndabaX talk:
 """
 )
+
 st.link_button(
-    "Open Talk Slides",
-    "https://github.com/kode2go/indabax_2026/blob/main/Developing_AI_Guidelines_for_Infrastructure_as_a_Service_Platforms_v4.pdf"
+    "📄 Download Talk Slides (PDF)",
+    "https://raw.githubusercontent.com/kode2go/indabax_2026/main/Developing_AI_Guidelines_for_Infrastructure_as_a_Service_Platforms_v4.pdf"
 )
 
 st.divider()
