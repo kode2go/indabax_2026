@@ -1,7 +1,0 @@
-[theme]
-base = "dark"
-
-primaryColor = "#1E88E5"           # Blue buttons
-backgroundColor = "#0E1117"
-secondaryBackgroundColor = "#1B1F2A"
-textColor = "#FAFAFA"
